@@ -1,0 +1,52 @@
+
+li {
+  width: 400px;
+  margin: 15px auto;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  position: relative;
+
+}
+
+.icon {
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+.TodoItem_p {
+
+}
+
+.Todo_item--complete {
+  text-decoration: line-through;
+}
+
+.icon-chulo {
+  position: absolute;
+  left: 40px;
+}
+
+.icon-chulo--active {
+  color: green;
+}
+
+.icon-cruz {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: red;
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+}
+
+.icon-cruz:hover {
+  color:red;
+}
